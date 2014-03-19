@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/class-loader": "2.4.*",
+        "symfony/http-foundation": "2.4.*",
+        "symfony/routing": "2.4.*",
+        "symfony/http-kernel": "2.4.*",
+        "symfony/event-dispatcher": "2.1.*"
+    },    
+    "autoload": {
+        "psr-0": { "Simplex": "src/", "Calendar": "src/"} 
+    }
+}
